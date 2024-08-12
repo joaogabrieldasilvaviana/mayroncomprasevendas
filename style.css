@@ -90,6 +90,31 @@ nav ul li a:hover {
     margin-top: 0;
     color: #007bff;
 }
+    <!-- Conteúdo anterior... -->
+    <div class="container">
+        <div class="hero">
+            <h2>Bem-vindo à Mayron Compras e Vendas!</h2>
+            <p>Encontre as melhores peças de computador com qualidade garantida e ótimos preços.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200?text=Processador+Intel+i7" alt="Processador Intel i7">
+            <h3>Processador Intel i7</h3>
+            <p>Desempenho de ponta para suas necessidades de computação.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200?text=Placa+de+Vídeo+NVIDIA+GTX+1660" alt="Placa de Vídeo NVIDIA GTX 1660">
+            <h3>Placa de Vídeo NVIDIA GTX 1660</h3>
+            <p>Gráficos de alta qualidade para jogos e edição de vídeo.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200?text=Memória+RAM+16GB+DDR4" alt="Memória RAM 16GB DDR4">
+            <h3>Memória RAM 16GB DDR4</h3>
+            <p>Velocidade e capacidade para multitarefas sem esforço.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+        <div class=
 
 .card p {
     font-s
