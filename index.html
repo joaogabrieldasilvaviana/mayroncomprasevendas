@@ -1,4 +1,104 @@
-/* Reset de algumas margens e padding padrão do navegador */
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayron Compras e Vendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mayron Compras e Vendas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="hero">
+            <h2>Bem-vindo à Mayron Compras e Vendas!</h2>
+            <p>Encontre as melhores peças de computador com qualidade garantida e ótimos preços.</p>
+        </div>
+        <div class="product-grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Processador+Intel+i9" alt="Processador Intel i9">
+                <h3>Processador Intel i9</h3>
+                <p>Desempenho de alta gama para jogos e aplicações intensivas.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Placa+de+Vídeo+NVIDIA+RTX+3080" alt="Placa de Vídeo NVIDIA RTX 3080">
+                <h3>Placa de Vídeo NVIDIA RTX 3080</h3>
+                <p>Experiência gráfica superior com suporte a ray tracing.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Memória+RAM+32GB+DDR5" alt="Memória RAM 32GB DDR5">
+                <h3>Memória RAM 32GB DDR5</h3>
+                <p>Alta capacidade e velocidade para multitarefas e produtividade.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=SSD+1TB" alt="SSD 1TB">
+                <h3>SSD 1TB</h3>
+                <p>Armazenamento rápido e confiável com grande capacidade.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Fonte+750W" alt="Fonte 750W">
+                <h3>Fonte 750W</h3>
+                <p>Fonte de alimentação eficiente para sistemas de alto desempenho.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Gabinete+Mid+Tower" alt="Gabinete Mid Tower">
+                <h3>Gabinete Mid Tower</h3>
+                <p>Espaço amplo e bom fluxo de ar para montagem do seu PC.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Placa-Mãe+ASUS+ROG" alt="Placa-Mãe 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
 * {
     margin: 0;
     padding: 0;
@@ -63,78 +163,132 @@ nav ul li a:hover {
     color: #fff;
     padding: 40px 20px;
     text-align: center;
-    border-radius: 5px;
-    margin-bottom: 20px;
+
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
 }
 
-.hero h2 {
-    margin: 0;
-    font-size: 2em;
-}
-
-.hero p {
-    font-size: 1.2em;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
 }
 
-.card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
-.card h3 {
-    margin-top: 0;
-    color: #007bff;
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px;
 }
 
-.card p {
-    font-size: 1em;
-    color: #666;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.card a {
-    color: #007bff;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
-.card a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background: #333;
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.hero {
+    background: #007bff;
     color: #fff;
+    padding: 40px 20px;
     text-align: center;
-    padding: 10px 20px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.hero {
+    background: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+ASUS ROG">
+                <h3>Placa-Mãe ASUS ROG</h3>
+                <p>Placa-mãe de alto desempenho com suporte a overclock.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Cooler+para+Processador" alt="Cooler para Processador">
+                <h3>Cooler para Processador</h3>
+                <p>Refrigeração eficiente para manter seu processador na temperatura ideal.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Drive+de+DVD" alt="Drive de DVD">
+                <h3>Drive de DVD</h3>
+                <p>Leitor e gravador de DVD para armazenamento de dados e mídia.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Monitor+24%22" alt="Monitor 24\"">
+                <h3>Monitor 24"</h3>
+                <p>Monitor Full HD com excelente qualidade de imagem e cores.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Teclado+Mecânico" alt="Teclado Mecânico">
+                <h3>Teclado Mecânico</h3>
+                <p>Teclado com switches mecânicos para uma digitação precisa e confortável.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mayron Compras e Vendas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
